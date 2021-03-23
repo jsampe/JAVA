@@ -19,6 +19,12 @@ The workspace contains this folders by default, where:
 - `src`: the folder to maintain sources.
 - `test`: the folder to contains work in progress.
 
+
+# SRC
+
+HelloWorld.java
+- Complying with the tradition the classic Hello World to start
+
 ## Dependency Management
 
 The `JAVA DEPENDENCIES` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-pack/blob/master/release-notes/v0.9.0.md#work-with-jar-files-directly).
