@@ -26,6 +26,8 @@ HelloWorld.java
 - Complying with the tradition the classic Hello World to start
 ShowDate.java
 - Only shows date.
+ArrayMinMax.java
+- illustrates a simple algorithm for finding the minimum and maximum of a given set of numbers.
 
 ## Dependency Management
 
