@@ -24,6 +24,8 @@ The workspace contains this folders by default, where:
 
 HelloWorld.java
 - Complying with the tradition the classic Hello World to start
+ShowDate.java
+- Only shows date.
 
 ## Dependency Management
 

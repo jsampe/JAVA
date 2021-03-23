@@ -1,8 +1,10 @@
 /**
  * Simple show date class.
- * Import only de class Date.
+ * Shows how you import only the class that you use, Date.
+ * Generic way are: import java.util.*;
  */
 
+// Import only Date.
 import java.util.Date;
 
 public class ShowDate {
