@@ -1,5 +1,5 @@
 /**
- * Simple show date class.
+ * Simple class that show the date.
  * Shows how you import only the class that you use, Date.
  * Generic way are: import java.util.*;
  */
