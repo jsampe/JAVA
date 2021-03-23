@@ -1,5 +1,5 @@
 /**
- * Shows the min a max of a group of numbers.
+ * Illustrates a simple algorithm for finding the minimum and maximum of a given set of numbers.
  */
 
 public class ArrayMinMax {
