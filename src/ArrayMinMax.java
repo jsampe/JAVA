@@ -8,7 +8,7 @@ public class ArrayMinMax {
         int m[] = {25,52,18,91,11,5};
 
         // This only show every number of the array tabulated \t
-        // using the .length of the array as control.
+        // Using the .length of the array as control.
         // m[i] are the position of the element into the array, starting with 0 from the left.
         
         for (int i = 0; i < m.length; i++) {
