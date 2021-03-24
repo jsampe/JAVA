@@ -17,6 +17,6 @@ public class ImputWindow {
         int AgeNumber = Integer.parseInt(UserAge);
 
         System.out.println("User: " + UserName + " Age: " + (AgeNumber));
-        
+      
     }    
 }
