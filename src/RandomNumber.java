@@ -9,14 +9,14 @@ public class RandomNumber {
         // Defines a range between two numbers, min and max.
         int min = -100;
         int max =  100;
-        // Defines an array of a given number of elements. 
+        // Defines an array of a given number of elements, this case ten.
         int m[] = new int[10];
-        // We use a for to fill the array
+        // We use a for to fill the array and .length to chosse the length of m[].
         for (int j = 0; j < m.length; j++) {
-            // Creates a new random number.
-            Random random = new Random();
+            // Creates mRandom such as object of the class Random.  
+            Random mRandom = new Random();
             // Defines r as a number of type random between two values ​​min and max.
-            int r = random.nextInt(max - min) + min;
+            int r = mRandom.nextInt(max - min) + min;
             // Prints the values ​​on the screen.
             System.out.println("min: " + min + " max: " + max + " for are: " + j + " randon number is: " + r);
         }
