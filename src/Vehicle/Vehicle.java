@@ -1,3 +1,4 @@
+package Vehicle;
 public class Vehicle {
 
     int passangers; // Passangers number.

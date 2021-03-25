@@ -1,3 +1,4 @@
+package Vehicle;
 // Class Vehicle
 public class VehicleBmw {
     public static void main(String[] args) {
