@@ -1,5 +1,5 @@
 // Class Vehicle
-public class ClassVehicle {
+public class VehicleSkoda {
     public static void main(String[] args) {
     
         Vehicle skoda = new Vehicle();
