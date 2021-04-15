@@ -2,17 +2,19 @@ class Bubble {
 
     public static void main(String[] args) {
         
-        int nums[] = {99, -10, 1000123, 18, -978, 5623, 463, 9, 287, 49, 7};
+        int nums[] = {99, -10, 100, 18, -978, 562, 463, 9, 287, 49};
 
         int a, b, t;
         //int size;
 
-        size = nums.length; // Number of elements to order.
+        //size = nums.length; // Number of elements to order.
 
         // Shows original array.
         for ( int i = 0; i < nums.length; i++ ) {
-            System.out.println(nums[i]);
+            System.out.printf( "%d \t", nums[i] );
         }
+
+        System.out.println("\n Now ordered:");
 
         // Bubble order.
         for ( a=1; a < nums.length; ++a) {
@@ -23,6 +25,10 @@ class Bubble {
                     nums[b] = t;
                 }
             }
+        }
+
+        for ( int i = 0; i < nums.length; i++ ) {
+            System.out.printf( "%d \t", nums[i] );
         }
 
     }
