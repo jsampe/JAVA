@@ -1,5 +1,3 @@
-import org.graalvm.compiler.core.common.type.ArithmeticOpTable.BinaryOp.And;
-
 public class truth_table {
 
     public static void main(String[] args) {
