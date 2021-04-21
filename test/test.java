@@ -1,20 +1,32 @@
-class test {
+import java.util.Arrays;
+
+/*
+* Access an element that is inside an array and show the use of Array to String.
+*/
+
+public class test {
 
     public static void main(String[] args) {
-        
-        int table[][] = new int[4][4];
-        char ch = 'A';
-        char ct = 'E';
 
-        for (int i = 0; i < table.length; i++) {
-            
+        int n[] = new int[10];
 
-            
-            table[i] = ch;
-            System.out.println((char)table[i]);
-            ++ch;
-        }        
+        // Fill the array.
+        for (int i = 0; i < n.length; i++) {
+            n[i] = i;
+        }
+        // Shows the array now.
+        System.out.println("A = " + Arrays.toString(n));
+        // Print the value of position nine.
+        System.out.println("Print value of position nine " + n[9]);
+
+        // Here change/write the value of position nine.
+        n[9] = 50;
+
+        // Print the value of position nine after update.
+        System.out.println("Print value of position nine " + n[9]);
+        // Show the array changed.
+        System.out.println("A = " + Arrays.toString(n));
 
     }
-    
+
 }
