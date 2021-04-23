@@ -9,7 +9,9 @@ public class test {
             {"Onwer" , "Arquited" , "Enginered" , "Teacher"}
         };
         
-        for
+        for (String[] strings : employed) {
+            System.out.println(Arrays.toString(strings));
+        }
         
     }
     
