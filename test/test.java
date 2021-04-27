@@ -11,6 +11,7 @@ public class test {
         
         for (String[] strings : employed) {
             System.out.println(Arrays.toString(strings));
+            System.out.println("Hello");
         }
         
     }
