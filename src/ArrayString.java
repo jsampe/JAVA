@@ -11,6 +11,7 @@ public class ArrayString {
         
         for (String[] strings : employed) {
             System.out.println(Arrays.toString(strings));
+            System.out.println("Hello");
         }
         System.out.println(employed[1][1]);
 
