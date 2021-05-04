@@ -1,9 +1,9 @@
-/* 
+/*
 * Show differences betewn for-i and for-each.
 * Both go through the array, but for-i can write values, and for-each only read, dont write.
 */
 
-class foreach {
+class Foreach {
     
     public static void main(String[] args) {
         // Here we use a classic for-i to fill the array, because is read/write function.
