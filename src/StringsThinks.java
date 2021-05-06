@@ -36,6 +36,17 @@ public class StringsThinks {
         System.out.println(Sentece.substring(3, 5));
 
         // Add new examples here.
-        
+        System.out.println("----------------------");
+        // Return cero if the strings are equals.
+        System.out.println(MyName.compareTo(MyName));
+        // Return negative number if first string are greather than second.
+        System.out.println(MyName.compareTo(LastName));
+        // Return positive number if first string are less than second.
+        System.out.println(LastName.compareTo(MyName));
+        System.out.println("----------------------");
+        // Return start position of text into string.
+        System.out.println(Sentece.indexOf("be"));
+        // Return last macht position.
+        System.out.println(Sentece.lastIndexOf("be"));
     }
 }
